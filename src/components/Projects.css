@@ -1,0 +1,19 @@
+.projects {
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+  
+  .projects h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 40px; /* Add spacing between the cards */
+    width: 100%;
+    align-items: center; /* Center the cards horizontally */
+  }

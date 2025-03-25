@@ -1,0 +1,17 @@
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #1a2a44;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+main {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+section {
+  padding: 170px 0;
+}
+

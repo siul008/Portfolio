@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    margin: 0;
+  }
+  
+  .nav-links li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.7rem;
+  }
+  
+  .nav-links li a:hover {
+    color: var(--primary-color)
+  }
+  
+  .language-toggle {
+    border: none;
+    background-color: var(--secondary-text-color);
+    padding: 3px 3px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .language-icon {
+    width: 80px;
+    height: 40px;
+  }

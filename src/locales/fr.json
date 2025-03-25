@@ -1,0 +1,39 @@
+{
+    "skills": "Compétences",
+    "projects": "Projets",
+    "contact": "Contact",
+    "about": "À propos",
+    "aboutPresentation": "Bonjour, je suis Julien",
+    "aboutTitle": "Ingénieur Logiciel & Développeur",
+    "aboutDesc": "J'ai 26 ans et je suis passionné par le code. J'aime apprendre de nouvelles compétences, c'est pourquoi j'ai appris le machine learning, le développement de jeux, l'audio, la musique, la modélisation 3D, l'art pixel, le développement mobile, l'automatisation... J'ai un fort intérêt pour Unity et l'automatisation, mais je suis toujours à la recherche de nouvelles compétences et opportunités à explorer.",
+    "hobbiesTitle": "Mes loisirs sont :",
+    "hobbiesDesc": "Développement personnel de jeux, Piano, Jeux vidéo, Escalade",
+    "downloadResume": "Télécharger mon CV",
+
+    "technologyUsed" : "Technologies utilisées",
+    "schoolProject" : "Projet d'étude",
+    "personalProject" : "Projet Personnel",
+    "gameDeveloppement" : "Développement de jeux vidéos",
+    "3DModeling" : "Modélisation 3D",
+    "automation" : "Automatisation",
+    "soundDesign" : "Design Audio",
+    "gameDesign" : "Game Design",
+    "teamManagement" : "Management d'équipe",
+    "webDevelopment " : "Développement Web",
+    "responsiveDesign" : "Design Responsive",
+    "viewGithub" : "Voir sur Github",
+
+    "programmingLanguages" : "Languages de programmation",
+    "software" : "Logiciels",
+    "other" : "Autre",
+    "problemSolving" : "Résolution de problèmes",
+    "teamWork" : "Travail d'équipe",
+    "jobOpportunity" : "Opportunité d'emploi?",
+    "jobOpportunityDesc" : "Je suis à la recherche d'une opportunité d'emploi en ingénierie logicielle, développement de jeux, automatisation ou tout autre domaine qui pourrait m'intéresser.",
+    "developSomething" : "Développer quelque chose?",
+    "developSomethingDesc" : "I am looking for a collaboration opportunity in software engineering, game developpement, automation or any other field that could interest me.",
+
+
+
+    "copyright": "Tous droits réservés"
+}
