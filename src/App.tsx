@@ -1,5 +1,4 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
 import Navbar from './components/Navbar';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
