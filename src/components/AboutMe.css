@@ -1,26 +1,50 @@
+#about{
+  max-width: 90%;
+  margin: 0 auto;
+  min-height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .about-me {
     position: relative;
     width: 100%;
     min-height: 30rem;
-    display: grid;
-    grid-template-columns: 1fr minmax(min-content, 45%);
+    display: flex;
+    gap: 20px;
+    /* grid-template-columns: 1fr minmax(min-content, 45%); */
     align-items: start;
     max-width: 100%; /* Ensure the grid takes full width */
   }
   
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1000px) {
+    #about{
+      padding-top: 50px;
+    }
     .about-me {
       min-height: unset;
       grid-template-columns: 1fr;
       grid-template-rows: auto auto;
       row-gap: 5rem;
       padding: 3rem 0;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .logo{
+      display: none;
     }
   }
   
   /* Left Section: Text */
   .about-me-left {
-    position: relative;
+    height: 100%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
   }
   
   .about-me-left-container {
@@ -46,6 +70,7 @@
     font-weight: bold;
     color: var(--text-color);
     font-style: italic;
+    font-size: 1.5rem;
   }
 
   .important-text {
@@ -56,6 +81,8 @@
   .normal-text {
     font-weight: 400;
     color: var(--text-color);
+    font-size: 1.125rem;
+    line-height: 1.5;
   }
   
   .hobbies-section {

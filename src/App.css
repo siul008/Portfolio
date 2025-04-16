@@ -1,9 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   font-family: Arial, sans-serif;
   background-color: #1a2a44;
   color: white;
   min-height: 100vh;
-  padding: 20px;
+  /* padding: 20px; */
+  margin: 0 auto;
 }
 
 main {
@@ -12,6 +19,7 @@ main {
 }
 
 section {
-  padding: 170px 0;
+  /* margin-top: 80px;
+  margin-bottom: 170px; */
 }
 

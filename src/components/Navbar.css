@@ -2,6 +2,12 @@
     display: flex;
     justify-content: space-around;
     padding: 10px 20px;
+    background: #1a2a44;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    border-bottom: 2px solid var(--main-color);
   }
   
   .logo {
@@ -13,14 +19,14 @@
   .nav-links {
     display: flex;
     list-style: none;
-    gap: 80px;
+    gap: 15px;
     margin: 0;
   }
   
   .nav-links li a {
     color: var(--text-color);
     text-decoration: none;
-    font-size: 1.7rem;
+    font-size: min(1.25rem, 3.5vw);
   }
   
   .nav-links li a:hover {
@@ -29,8 +35,9 @@
   
   .language-toggle {
     border: none;
-    background-color: var(--secondary-text-color);
-    padding: 3px 3px;
+    /* background-color: var(--secondary-text-color); */
+    /* padding: 3px 3px; */
+    border: 1px solid white;
     cursor: pointer;
     font-size: 0.9rem;
     display: flex;
@@ -39,6 +46,10 @@
   }
   
   .language-icon {
-    width: 80px;
-    height: 40px;
+    min-width: 40px;
+    max-width: 80px;
+    min-height: 20px;
+    max-height: 40px;
+    width: 10vw;
+    height: 5vw;
   }

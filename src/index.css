@@ -7,3 +7,14 @@
   --secondary-text-color: #bacdd6;
 }
 
+*{
+  box-shadow: none !important;
+}
+
+p{
+  font-size: 1.125rem !important;
+}
+
+strong{
+  font-family: 1.3rem !important;
+}
