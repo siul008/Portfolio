@@ -2,8 +2,8 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './AboutMe.css';
 import ProfilePic from '../assets/Julien.bmp'; 
-import EN_CV from '../assets/CV-Julien-EN.pdf';
-import FR_CV from '../assets/CV-Julien-FR.pdf';
+import EN_CV from '../assets/EN_CV.pdf';
+import FR_CV from '../assets/FR_CV.pdf';
 
 const AboutMe: React.FC = () => {
   const { t, i18n } = useTranslation();

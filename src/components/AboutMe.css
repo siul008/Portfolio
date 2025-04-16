@@ -21,7 +21,7 @@
 .light-1
 {
   bottom: 0%;
-  left: -55%
+  left: -35%
 }
 
 .about-me {
@@ -57,6 +57,7 @@
     .light
     {
       width: 15rem;
+      left: -55%;
     }
   }
   
