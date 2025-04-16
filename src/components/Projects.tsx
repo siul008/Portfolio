@@ -2,9 +2,17 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import ProjectCard from './ProjectCard';
 import './Projects.css';
-import im from '../assets/Ray.png';
+import im from '../assets/PushSwap.png';
 import im2 from '../assets/AUG21D.png';
 import im3 from '../assets/50Ewwg.png';
+import im4 from '../assets/Transcendence.png';
+import im5 from '../assets/cub3d.png';
+import im6 from '../assets/minishell.png'
+import im7 from '../assets/Philo.png'
+import im8 from '../assets/Space.png'
+import im9 from '../assets/webserv.png'
+import im10 from '../assets/ford.png'
+import im11 from '../assets/elden.png'
 
 const Projects: React.FC = () => {
   const { t } = useTranslation();
@@ -52,7 +60,7 @@ const Projects: React.FC = () => {
       ],
       description: t('cube3dDescription'),
       githubLink: 'cube3d',
-      image: im,
+      image: im5,
     },
     {
       title: '42 Seconds',
@@ -69,14 +77,6 @@ const Projects: React.FC = () => {
       description: t('42SecondsDescription'),
       githubLink: '42Seconds',
       image: im2,
-    },
-    {
-      title: 'Portfolio',
-      technologies: 'React, TypeScript, CSS',
-      tags: [labels.webDevelopment, labels.frontend, labels.responsiveDesign],
-      description: t('portfolioDesc'),
-      githubLink: 'Portfolio',
-      image: '',
     },
     {
       title: 'Elements Keeper',
@@ -106,7 +106,7 @@ const Projects: React.FC = () => {
       ],
       description: t('minishellDesc'),
       githubLink: 'Minishell',
-      image: '',
+      image: im6,
     },
     {
       title: 'Push Swap',
@@ -120,7 +120,7 @@ const Projects: React.FC = () => {
       ],
       description: t('pushSwapDesc'),
       githubLink: 'PushSwap',
-      image: '',
+      image: im,
     },
     {
       title: 'Ford Johnson Alorightm',
@@ -132,7 +132,7 @@ const Projects: React.FC = () => {
       ],
       description: t('fordJohnsonDesc'),
       githubLink: 'fordJohnson',
-      image: '',
+      image: im10,
     },
     {
       title: 'Transcendence',
@@ -152,7 +152,7 @@ const Projects: React.FC = () => {
       ],
       description: t('transcendenceDesc'),
       githubLink: 'TranscendencePong42',
-      image: '',
+      image: im4,
     },
     {
       title: 'Elden Ring Twitch Integration',
@@ -166,7 +166,7 @@ const Projects: React.FC = () => {
       ],
       description: t('eldenRingTwitchDesc'),
       githubLink: 'EldenRingTwitchIntegration',
-      image: '',
+      image: im11,
     },
     {
       title: 'Elden Ring Save Manager',
@@ -179,7 +179,7 @@ const Projects: React.FC = () => {
       ],
       description: t('eldenRingSaveDesc'),
       githubLink: 'SaveManagerEldenRing',
-      image: '',
+      image: im11,
     },
     {
       title: 'Elden Ring Death Counter',
@@ -203,7 +203,7 @@ const Projects: React.FC = () => {
       ],
       description: t('webservDesc'),
       githubLink: 'webserv',
-      image: '',
+      image: im9,
     },
     {
       title: 'Philosophers',
@@ -215,7 +215,7 @@ const Projects: React.FC = () => {
       ],
       description: t('philosophersDesc'),
       githubLink: 'philosophers',
-      image: '',
+      image: im7,
     },
     {
       title: 'Game In Progress',
@@ -231,7 +231,7 @@ const Projects: React.FC = () => {
       ],
       description: t('gameDesc'),
       githubLink: 'None',
-      image: '',
+      image: im8,
     },
   ];
 
