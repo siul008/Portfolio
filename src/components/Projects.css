@@ -107,5 +107,6 @@
   @media screen and (max-width: 1000px) {
     .project-card{
       flex-direction: column;
+      width: 90%;
     }
   }
