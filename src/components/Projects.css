@@ -1,7 +1,10 @@
 .projects {
+  padding-top: 70px;
     max-width: 1800px;
     margin: 0 auto;
   }
+
+
   
   .projects h2 {
     font-size: 2.5rem;

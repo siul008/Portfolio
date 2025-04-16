@@ -3,8 +3,25 @@
   margin: 0 auto;
   min-height: 95vh;
   display: flex;
+  margin-bottom: 50px;
   align-items: center;
   justify-content: space-around;
+}
+
+.light{
+  position: absolute;
+  width: 35rem;
+  height: 25rem;
+  background: var(--main-color);
+  border-radius: 50%;
+  filter: blur(14rem);
+  z-index: 0;
+}
+
+.light-1
+{
+  bottom: 0%;
+  left: -55%
 }
 
 .about-me {
@@ -36,6 +53,10 @@
   @media screen and (max-width: 800px) {
     .logo{
       display: none;
+    }
+    .light
+    {
+      width: 15rem;
     }
   }
   
@@ -96,7 +117,7 @@
     width: fit-content;
     border: 2px solid var(--main-color);
     padding: 0.5rem 1rem;
-    font-size: 1.8rem;
+    font-size: 1.25rem;
     color: var(--main-color);
     font-weight: 500;
     text-decoration: none;

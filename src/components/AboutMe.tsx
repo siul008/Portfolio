@@ -44,6 +44,7 @@ const AboutMe: React.FC = () => {
           </div>
         </div>
       </div>
+      <div className="light light-1"></div>
     </div>
   );
 };
