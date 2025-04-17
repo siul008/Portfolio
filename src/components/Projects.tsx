@@ -6,20 +6,41 @@ import im from '../assets/PushSwap.png';
 import ek from '../assets/elementsKeeper.png';
 import ekg from '../assets/elementsKeeperGameplay.png';
 import ekb from '../assets/elementsKeeperBook.png';
+
 import sec42 from '../assets/42Sec.png';
 import sec42T from '../assets/42SecQuest.png';
 import sec42g1 from '../assets/42SecGame.png';
 import sec42g2 from '../assets/42SecGame2.png';
 import sec42E from '../assets/42SecElev.png';
+
 import erSaveManager from '../assets/ERSaveManager.png';
-import im4 from '../assets/Transcendence.png';
-import im5 from '../assets/cub3d.png';
+
+import hackR from '../assets/exolegendRobot.png'
+import hackG from '../assets/exolegendGame.jpg'
+
+import tr from '../assets/Transcendence.png';
+import trC from '../assets/TranscendenceCustomize.png';
+import trA from '../assets/TranscendenceAchievements.png';
+import trR from '../assets/TranscendenceRumble.png';
+import trR1 from '../assets/TranscendenceRumble2.png';
+import trT from '../assets/TranscendenceTournament.png';
+
+import cub3d from '../assets/cub3d.png';
+import cub3dE from '../assets/cub3dExit.png';
+import cub3dD from '../assets/cub3dDoor.png';
+
 import im6 from '../assets/minishell.png'
 import im7 from '../assets/Philo.png'
-import im8 from '../assets/Space.png'
+
+import spM from '../assets/spaceMain.png'
+import spG from '../assets/spaceGame.png'
+import spP from '../assets/spacePause.png'
+import spS from '../assets/spaceShop.png'
+
 import im9 from '../assets/webserv.png'
 import im10 from '../assets/ford.png'
 import im11 from '../assets/elden.png'
+import eldenCounter from '../assets/eldenCounter.jpg'
 
 const Projects: React.FC = () => {
   const { t } = useTranslation();
@@ -54,20 +75,42 @@ const Projects: React.FC = () => {
     fileModification : t('fileModification'),
     ocr : 'OCR',
     multiThreading: t('multiThreading'),
+    math : t('math'),
   };
 
   const projects = [
+    {
+      title: 'Transcendence',
+      technologies: 'Python, JavaScript, ThreeJS, HTML, CSS, Django, PostgreSQL, Docker, Figma',
+      tags: [
+        labels.schoolProject,
+        labels.teamManagement,
+        labels.artificialIntelligence,
+        labels.database,
+        labels.frontend,
+        labels.backend,
+        labels.websockets,
+        labels.networking,
+        labels.gameDesign,
+        labels.gameDevelopment,
+        labels.threeDModeling
+      ],
+      description: t('transcendenceDesc'),
+      githubLink: 'TranscendencePong42',
+      images: [tr, trC, trA, trR, trR1, trT],
+    },
     {
       title: 'Cube3D',
       technologies: 'C, Minilibx',
       tags: [
         labels.schoolProject,
         labels.gameDevelopment, 
-        labels.memoryManagement
+        labels.memoryManagement,
+        labels.math,
       ],
       description: t('cube3dDescription'),
       githubLink: 'cube3d',
-      images : [im],
+      images : [cub3d, cub3dD, cub3dE],
     },
     {
       title: '42 Seconds',
@@ -142,26 +185,6 @@ const Projects: React.FC = () => {
       image: im10,
     },
     {
-      title: 'Transcendence',
-      technologies: 'Python, JavaScript, ThreeJS, HTML, CSS, Django, PostgreSQL, Docker, Figma',
-      tags: [
-        labels.schoolProject,
-        labels.teamManagement,
-        labels.artificialIntelligence,
-        labels.database,
-        labels.frontend,
-        labels.backend,
-        labels.websockets,
-        labels.networking,
-        labels.gameDesign,
-        labels.gameDevelopment,
-        labels.threeDModeling
-      ],
-      description: t('transcendenceDesc'),
-      githubLink: 'TranscendencePong42',
-      image: im4,
-    },
-    {
       title: 'Elden Ring Twitch Integration',
       technologies: 'C#, Twitch API, Cheat Engine, .NET',
       tags: [
@@ -198,7 +221,7 @@ const Projects: React.FC = () => {
       ],
       description: t('eldenRingDeathDesc'),
       githubLink: 'Elden-Ring-Death-Counter/tree/testBranch',
-      image: '',
+      image: eldenCounter,
     },
     {
       title: 'Webserv',
@@ -238,7 +261,22 @@ const Projects: React.FC = () => {
       ],
       description: t('gameDesc'),
       githubLink: 'None',
-      image: im8,
+      images: [spM, spG, spP, spS],
+    },
+    {
+      title: '72h Exolegend Hackathon',
+      technologies: 'C++',
+      tags: [
+        labels.personalProject,
+        labels.artificialIntelligence,
+        labels.teamManagement,
+        labels.memoryManagement,
+        labels.algorithm,
+        labels.math,
+      ],
+      description: t('hackathondesc'),
+      githubLink: 'None',
+      images: [hackR, hackG],
     },
   ];
 

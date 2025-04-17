@@ -17,6 +17,10 @@ const Contact: React.FC = () => {
           <h3>{t('developSomething')}</h3>
           <p>{t('developSomethingDesc')}</p>
         </div>
+        <div className="contact-column">
+          <h3>{t('contractOpportunity')}</h3>
+          <p>{t('contractOpportunityDesc')}</p>
+        </div>
       </div>
       <div className="contact-buttons">
         <a
