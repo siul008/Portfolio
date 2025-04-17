@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import ProjectCard from './ProjectCard';
 import './Projects.css';
+import './Splide.css';
 import im from '../assets/PushSwap.png';
 import ek from '../assets/elementsKeeper.png';
 import ekg from '../assets/elementsKeeperGameplay.png';

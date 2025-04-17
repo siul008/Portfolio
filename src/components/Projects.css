@@ -122,28 +122,6 @@
   background-color: var(--main-bg-color); 
 }
 
-.splide__arrow {
-  background-color: var(--main-color);
-  border-radius: 50%;
-  opacity: 0.8;
-}
-
-.splide__pagination__page {
-  background: var(--main-bg-color);
-  width: 12px;
-  height: 12px;
-  margin: 0 6px;
-  border: solid 1px white;
-}
-
-.splide__pagination__page.is-active {
-  background: var(--main-color);
-  transform: scale(1.4);
-  z-index: 1;
-  border: solid 1px white;
-}
-
-
 @media screen and (max-width: 1000px) {
   .project-card{
     flex-direction: column;
