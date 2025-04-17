@@ -21,22 +21,21 @@
     list-style: none;
     gap: 15px;
     margin: 0;
+
   }
   
   .nav-links li a {
     color: var(--text-color);
     text-decoration: none;
     font-size: min(1.25rem, 3.5vw);
+    transition: color 0.5s ease;
   }
   
   .nav-links li a:hover {
-    color: var(--primary-color)
+    color: var(--main-color)
   }
   
   .language-toggle {
-    border: none;
-    /* background-color: var(--secondary-text-color); */
-    /* padding: 3px 3px; */
     border: 1px solid white;
     cursor: pointer;
     font-size: 0.9rem;
@@ -52,4 +51,9 @@
     max-height: 40px;
     width: 10vw;
     height: 5vw;
+    opacity: 1;
+  }
+
+  .language-icon:hover {
+    opacity: 0.7;
   }

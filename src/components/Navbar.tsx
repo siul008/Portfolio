@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
       </ul>
       <button className="language-toggle" onClick={toggleLanguage}>
         <img
-          src={i18n.language === 'en' ? enFlag : frFlag} 
+          src={i18n.language === 'en' ? frFlag : enFlag} 
           alt={i18n.language === 'en' ? 'Switch to French' : 'Switch to English'} 
           className="language-icon"
         />

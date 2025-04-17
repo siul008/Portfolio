@@ -84,15 +84,13 @@
 }
 
 
-
-
 /* GitHub link */
 .project-card-link {
   margin-top: 15px;
   text-decoration: none;
   color: var(--main-color); /* Keep your original link color */
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   transition: color 0.3s ease; /* Keep your original hover effect */
 }
 

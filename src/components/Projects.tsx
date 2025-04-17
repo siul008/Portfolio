@@ -136,7 +136,7 @@ const Projects: React.FC = () => {
     },
     {
       title: 'Transcendence',
-      technologies: 'Python, JavaScript, HTML, CSS, Django, ThreeJS, PostgreSQL, Docker, Figma, ThreeJS',
+      technologies: 'Python, JavaScript, ThreeJS, HTML, CSS, Django, PostgreSQL, Docker, Figma',
       tags: [
         labels.schoolProject,
         labels.teamManagement,
