@@ -2,7 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\src"
+    "\\src",
+    "\\src\\components"
   ],
+  "SelectedNode": "\\src\\components\\ProjectCard.tsx",
   "PreviewInSolutionExplorer": false
 }
