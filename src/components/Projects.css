@@ -45,7 +45,7 @@
   height: 100%; /* Fixed height */
   background-size: 100% 100%; /* Stretch to fill container */
   border-radius: 20px; /* Rounded corners */
-  flex-shrink: 0; /* Prevent shrinking */
+  flex-shrink: 0; 
   background-color: var(--main-bg-color); /* Fallback color if image fails */
 }
 
@@ -104,10 +104,63 @@
   gap: 5px;
 }
 
-
-  @media screen and (max-width: 1000px) {
-    .project-card{
-      flex-direction: column;
-      width: 90%;
-    }
+  .project-image-carousel {
+    min-height: 300px;
+    max-width: 390px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%; /* Fixed height */
+    background-size: 100% 100%; /* Stretch to fill container */
   }
+  
+  .project-image-carousel .splide__slide {
+    display: flex;
+    justify-content: center;
+  }
+  
+.project-image {
+  aspect-ratio: 1.3 / 1;
+  min-height: 300px;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 100%; /* Fixed height */
+  background-size: 100% 100%; /* Stretch to fill container */
+  background-position: center;
+  border-radius: 20px; /* Rounded corners */
+  flex-shrink: 0; 
+  background-color: var(--main-bg-color); /* Fallback color if image fails */
+}
+
+.splide__arrow {
+  background-color: var(--main-color);
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+.splide__pagination__page {
+  background: var(--main-bg-color);
+  width: 12px;
+  height: 12px;
+  margin: 0 6px;
+  border: solid 1px white;
+}
+
+.splide__pagination__page.is-active {
+  background: var(--main-color);
+  transform: scale(1.4);
+  z-index: 1;
+  border: solid 1px white;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .project-card{
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .project-card-content h3
+  {
+    font-size: 1.2rem;
+  }
+}

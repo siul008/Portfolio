@@ -1,7 +1,7 @@
 .skills {
     padding: 5rem 0;
     max-width: 90%;
-    margin: 0 auto;
+    margin: 20rem auto;
   }
   
   .skills h2 {
@@ -29,7 +29,7 @@
   }
   
   .skills-category h3 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: var(--text-color);
     margin-bottom: 1.5rem;
     text-align: center;
@@ -50,7 +50,7 @@
   
   .skill-name {
     flex: 1;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--secondary-text-color);
   }
   
@@ -78,5 +78,10 @@
     .skills-category {
       width: 100%;
       max-width: 500px;
+    }
+
+    .skills
+    {
+      margin: 5rem auto;
     }
   }

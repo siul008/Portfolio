@@ -3,8 +3,15 @@ import { useTranslation } from 'react-i18next';
 import ProjectCard from './ProjectCard';
 import './Projects.css';
 import im from '../assets/PushSwap.png';
-import im2 from '../assets/AUG21D.png';
-import im3 from '../assets/50Ewwg.png';
+import ek from '../assets/elementsKeeper.png';
+import ekg from '../assets/elementsKeeperGameplay.png';
+import ekb from '../assets/elementsKeeperBook.png';
+import sec42 from '../assets/42Sec.png';
+import sec42T from '../assets/42SecQuest.png';
+import sec42g1 from '../assets/42SecGame.png';
+import sec42g2 from '../assets/42SecGame2.png';
+import sec42E from '../assets/42SecElev.png';
+import erSaveManager from '../assets/ERSaveManager.png';
 import im4 from '../assets/Transcendence.png';
 import im5 from '../assets/cub3d.png';
 import im6 from '../assets/minishell.png'
@@ -60,7 +67,7 @@ const Projects: React.FC = () => {
       ],
       description: t('cube3dDescription'),
       githubLink: 'cube3d',
-      image: im5,
+      images : [im],
     },
     {
       title: '42 Seconds',
@@ -76,7 +83,7 @@ const Projects: React.FC = () => {
       ],
       description: t('42SecondsDescription'),
       githubLink: '42Seconds',
-      image: im2,
+      images: [sec42, sec42T, sec42E, sec42g1, sec42g2],
     },
     {
       title: 'Elements Keeper',
@@ -91,7 +98,7 @@ const Projects: React.FC = () => {
       ],
       description: t('elementsKeeperDesc'),
       githubLink: 'ElementsKeeper',
-      image: im3,
+      images: [ek, ekg, ekb],
     },
     {
       title: 'Minishell',
@@ -179,7 +186,7 @@ const Projects: React.FC = () => {
       ],
       description: t('eldenRingSaveDesc'),
       githubLink: 'SaveManagerEldenRing',
-      image: im11,
+      image: erSaveManager,
     },
     {
       title: 'Elden Ring Death Counter',

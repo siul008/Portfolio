@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
           rel="noopener noreferrer"
           className="contact-button"
         >
-          GitHub
+          Github
         </a>
         <a
           href="mailto:julien.nunespro@gmail.com"
@@ -34,7 +34,7 @@ const Contact: React.FC = () => {
           Email
         </a>
         <a
-          href="https://linkedin.com/in/juiien"
+          href="https://linkedin.com/in/jnunes~"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-button"

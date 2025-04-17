@@ -16,3 +16,10 @@ main {
   margin: 0 auto;
 }
 
+p,span{
+  letter-spacing: -0.9px;
+}
+
+h3, h2{
+  letter-spacing: -1.5px;
+}
