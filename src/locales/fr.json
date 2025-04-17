@@ -24,6 +24,9 @@
     "viewGithub" : "Voir sur Github",
     "math" : "Mathématiques",
 
+    "contractOpportunity" : "",
+    "contractOpportunityDesc" : "",
+
     "programmingLanguages" : "Languages de programmation",
     "software" : "Logiciels",
     "other" : "Autre",

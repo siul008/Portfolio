@@ -108,7 +108,7 @@ const Projects: React.FC = () => {
         labels.memoryManagement,
         labels.math,
       ],
-      description: t('cube3dDescription'),
+      description: t('cub3dDesc'),
       githubLink: 'cube3d',
       images : [cub3d, cub3dD, cub3dE],
     },

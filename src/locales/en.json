@@ -16,10 +16,12 @@
     "other" : "Other",
     "problemSolving" : "Problem Solving",
     "teamWork" : "Team Work",
-    "jobOpportunity" : "Job Opportunity",
+    "jobOpportunity" : "Open to Job Opportunities",
     "jobOpportunityDesc" : "I am looking for a job opportunity in software engineering, game developpement, automation or any other field that could interest me.",
-    "developSomething" : "Develop Something",
+    "developSomething" : "Open to Collaborations",
     "developSomethingDesc" : "I am looking for a collaboration opportunity in software engineering, game developpement, automation or any other field that could interest me.",
+    "contractOpportunity" : "Available for Freelance & Contract Work",
+    "contractOpportunityDesc" : "Whether it’s a short-term gig or a long-term freelance project, I’m happy to help bring your project to life.",
 
     "technologyUsed" : "Technology Used",
     "viewProject" : "View on Github",
@@ -35,8 +37,6 @@
     "responsiveDesign" : "Responsive Design",
     "viewGithub" : "View on Github",
     "math" : "Mathematics",
-
-
     "sorting" : "Sorting",
     "algorithm" : "Algorithm",
     "parsing" : "Parsing",
@@ -51,18 +51,18 @@
     "memoryModification" : "Memory Modification",
     "fileModification" : "File Modification",
 
-    "cube3dDescription" :"Cube3D",
-    "42SecondsDescription" : "42 Seconds",
+    "42SecondsDescription" : "42 Seconds is the winner of the Game Jam organized for the LGX convention, the theme was 42 and we had one week to create it. In this game you will have to defeat multiple puzzles in 42 seconds each. The goal was to create an accessible game, easy to understand with few inputs to touch the widest audience.",
     "portfolioDesc" : "Portfolio",
-    "elementsKeeperDesc" : "Elements Keeper",
-    "minishellDesc" : "Minishell",
-    "pushSwapDesc" : "Push Swap",
+    "elementsKeeperDesc" : "Elements Keeper is a game made for the Pirate Software Game Jam in 72 hours, the theme was 'Shadow' and 'Alchemy' and the game was ranked #1 in Playability. All assets in this game from the visuals, sound and music were self-made. The goal of this game is to combine elements to create towers to fend off waves of enemies",
+    "minishellDesc" : "Minishell is a shell made in C that is supposed to replicate the behaviour from bash, it handles exit values, redirection, piping, using and exporting arguments. Basically everything that bash is able to do.",
+    "pushSwapDesc" : "Push Swap is a sorting algorithm that can only use predefined commands such as (RB : rotate the B stack by 1, PA : push the first element of the stack B to the top of A...) to sort any numbers list. The goal of this sorting algorithm is to try to sort the list using the least number of moves.",
     "fordJohnsonDesc" : "Ford Johnson",
     "transcendenceDesc" : "Transcendence was the last project of the 42 school cursus. It is a full stack website in group. The goal was to create a website where user could create accounts to play the retro game Pong. I mainly took care of all the game aspects namely : game backend, game design, visuals, particle system, matchmaking, tournament, game customization, achievement and much more. I also helped on the frontend of the website in general.",
     "eldenRingTwitchDesc" : "Elden Ring Twitch",
     "eldenRingSaveDesc" : "Elden Ring Save",
     "eldenRingDeathDesc" : "Elden Ring Death",
     "webservDesc" : "Webserv",
+    "cub3dDesc" : "Cub3D is a simple 3D game engine in C, inspired by the classic Wolfenstein 3D. The objective is to render a 2D map into a 3D first-person perspective using raycasting techniques to render the view, the showcased game goal is to find the exit by exploring the maze before your oxygen level depletes.",
 
     "copyright": "All Rights Reserved"
 }
