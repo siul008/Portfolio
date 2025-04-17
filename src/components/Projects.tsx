@@ -24,7 +24,6 @@ import trC from '../assets/TranscendenceCustomize.png';
 import trA from '../assets/TranscendenceAchievements.png';
 import trR from '../assets/TranscendenceRumble.png';
 import trR1 from '../assets/TranscendenceRumble2.png';
-import trT from '../assets/TranscendenceTournament.png';
 
 import cub3d from '../assets/cub3d.png';
 import cub3dE from '../assets/cub3dExit.png';
@@ -98,7 +97,7 @@ const Projects: React.FC = () => {
       ],
       description: t('transcendenceDesc'),
       githubLink: 'TranscendencePong42',
-      images: [tr, trC, trA, trR, trR1, trT],
+      images: [tr, trC, trA, trR, trR1],
     },
     {
       title: 'Cube3D',
