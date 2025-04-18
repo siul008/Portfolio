@@ -11,6 +11,7 @@ interface ProjectCardProps {
   githubLink: string;
   image?: string; // Optional image for the project
   images?: string[];
+  link? : boolean;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -21,6 +22,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   githubLink,
   image,
   images,
+  link = true,
 }) => {
       const { t } = useTranslation();
 
@@ -81,14 +83,16 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           ))}
         </div>
         <p>{description}</p>
+        {link && (
         <a
-          href= {`https://github.com/siul008/${githubLink}`}
+          href={`https://github.com/siul008/${githubLink}`}
           target="_blank"
           rel="noopener noreferrer"
           className="project-card-link"
         >
           {t('viewGithub')} →
         </a>
+      )}
       </div>
     </div>
   );

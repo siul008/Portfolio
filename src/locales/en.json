@@ -4,11 +4,20 @@
     "contact":"Contact",
     "about":"About Me",
     "aboutPresentation" : "Hi, I'm Julien",
-    "aboutTitle" : "Software Engineer & Developer",
-    "aboutDesc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "aboutTitle" : "Software Developer · RPA Developer · Game Developer",
+    "aboutDescAfter" : "helped me build a deep and flexible understanding of programming. \n\nI'm especially drawn to Game Developpement and Robotic Process Automation, but I'm far from limited to those fields. I’m constantly exploring new technologies, which led me to learn multiple programming languages, software tools, and creative workflows.",
+    "aboutLink" : "the 42 school",
+    "aboutDescBefore" : "I'm a developer who became instantly passionate about coding from the very first try. Studying at",
     "hobbiesTitle" : "My hobbies are :",
     "hobbiesDesc" : "Personnal Game Developpement, Piano, Video Games, Bouldering",
     "downloadResume" : "Download Resume",
+
+
+    "about42Presentation" : "The 42 School",
+    "about42Title" : "Learn to learn, a peer to peer school",
+    "about42DescBefore": "42 is a peer-to-peer, project-based coding school with no teachers that is internationally recognized in the tech industry. Getting in requires passing a selective, high-intensity one-month exam that runs 7 days a week. The school doesn’t focus on specific technologies or frameworks, instead it teaches the fundamentals of programming, with an emphasis on adaptability.\n\n We mainly learned C, a low-level language, without access to external libraries. That means coding everything from scratch, managing memory manually, and writing programs that strictly follow the school’s coding standards, no memory leaks, no crashes, no shortcuts. Since everything is peer-reviewed, we constantly had to explain and defend our code, sometimes across language barriers. We also had to evaluate others’ code, which trained us to think critically, identify edge cases, and see things from different angles.\n\n In short, 42 taught me collaboration, resilience, clean and efficient low-level coding, and how to thrive in group projects. I’ve worked on dozens of real, challenging projects, and above all, I learned how to learn. It’s a big part of",
+    "about42Link" : "what defines me.",
+    "about42DescAfter" : "",
     
     
     "programmingLanguages" : "Programming Languages",
@@ -56,8 +65,9 @@
     "elementsKeeperDesc" : "Elements Keeper is a game made for the Pirate Software Game Jam in 72 hours, the theme was 'Shadow' and 'Alchemy' and the game was ranked #1 in Playability. All assets in this game from the visuals, sound and music were self-made. The goal of this game is to combine elements to create towers to fend off waves of enemies",
     "minishellDesc" : "Minishell is a shell made in C that is supposed to replicate the behaviour from bash, it handles exit values, redirection, piping, using and exporting arguments. Basically everything that bash is able to do.",
     "pushSwapDesc" : "Push Swap is a sorting algorithm that can only use predefined commands such as (RB : rotate the B stack by 1, PA : push the first element of the stack B to the top of A...) to sort any numbers list. The goal of this sorting algorithm is to try to sort the list using the least number of moves.",
-    "fordJohnsonDesc" : "Ford Johnson",
+    "fordJohnsonDesc" : "The Ford-Johnson algorithm (also known as Merge-Insertion Sort) is known for being one of the most efficient sorting algorithms in terms of comparison count, especially for small to medium-sized datasets. It requires to use pairing elements and sorting them in small groups then inserting the smallest elements into the sorted list using binary search based on the Jacobsthal sequence.",
     "transcendenceDesc" : "Transcendence was the last project of the 42 school cursus. It is a full stack website in group. The goal was to create a website where user could create accounts to play the retro game Pong. I mainly took care of all the game aspects namely : game backend, game design, visuals, particle system, matchmaking, tournament, game customization, achievement and much more. I also helped on the frontend of the website in general.",
+
     "eldenRingTwitchDesc" : "Elden Ring Twitch",
     "eldenRingSaveDesc" : "Elden Ring Save",
     "eldenRingDeathDesc" : "Elden Ring Death",

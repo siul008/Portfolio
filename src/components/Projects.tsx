@@ -181,7 +181,7 @@ const Projects: React.FC = () => {
         labels.algorithm,
       ],
       description: t('fordJohnsonDesc'),
-      githubLink: 'fordJohnson',
+      githubLink: 'FordJohnson',
       image: im10,
     },
     {
@@ -262,6 +262,7 @@ const Projects: React.FC = () => {
       description: t('gameDesc'),
       githubLink: 'None',
       images: [spM, spG, spP, spS],
+      link:false,
     },
     {
       title: '72h Exolegend Hackathon',
