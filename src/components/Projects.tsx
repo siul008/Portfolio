@@ -50,7 +50,7 @@ const Projects: React.FC = () => {
     gameDevelopment: t('gameDeveloppement'),
     memoryManagement: t('memoryManagement'),
     parsing: t('parsing'),
-    personalProject: t('personnalProject'),
+    personalProject: t('personalProject'),
     soundDesign: t('soundDesign'),
     gameDesign: 'Game Design',
     threeDModeling: t('3DModeling'),
@@ -243,7 +243,7 @@ const Projects: React.FC = () => {
         labels.parsing,
         labels.multiThreading
       ],
-      description: t('philosophersDesc'),
+      description: t('philoDesc'),
       githubLink: 'philosophers',
       image: im7,
     },

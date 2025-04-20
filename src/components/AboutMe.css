@@ -4,6 +4,7 @@
   min-height: 95vh;
   display: flex;
   margin-bottom: 50px;
+  padding-top: 50px;
   align-items: center;
   justify-content: space-around;
 }
@@ -161,9 +162,6 @@
   }
     
   @media screen and (max-width: 1000px) {
-    #about{
-      padding-top: 50px;
-    }
     .about-me {
       min-height: unset;
       grid-template-columns: 1fr;

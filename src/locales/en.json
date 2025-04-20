@@ -5,7 +5,7 @@
     "about":"About Me",
     "aboutPresentation" : "Hi, I'm Julien",
     "aboutTitle" : "Software Developer · RPA Developer · Game Developer",
-    "aboutDescAfter" : "helped me build a deep and flexible understanding of programming. \n\nI'm especially drawn to Game Developpement and Robotic Process Automation, but I'm far from limited to those fields. I’m constantly exploring new technologies, which led me to learn multiple programming languages, software tools, and creative workflows.",
+    "aboutDescAfter" : "helped me build a deep and flexible understanding of programming using low level languages. \n\nI'm especially drawn to Game Developpement and Robotic Process Automation, but I'm far from limited to those fields. I’m constantly exploring new technologies, which led me to learn multiple programming languages, software tools, and creative workflows.",
     "aboutLink" : "the 42 school",
     "aboutDescBefore" : "I'm a developer who became instantly passionate about coding from the very first try. Studying at",
     "hobbiesTitle" : "My hobbies are :",
@@ -15,8 +15,8 @@
 
     "about42Presentation" : "The 42 School",
     "about42Title" : "Learn to learn, a peer to peer school",
-    "about42DescBefore": "42 is a peer-to-peer, project-based coding school with no teachers that is internationally recognized in the tech industry. Getting in requires passing a selective, high-intensity one-month exam that runs 7 days a week. The school doesn’t focus on specific technologies or frameworks, instead it teaches the fundamentals of programming, with an emphasis on adaptability.\n\n We mainly learned C, a low-level language, without access to external libraries. That means coding everything from scratch, managing memory manually, and writing programs that strictly follow the school’s coding standards, no memory leaks, no crashes, no shortcuts. Since everything is peer-reviewed, we constantly had to explain and defend our code, sometimes across language barriers. We also had to evaluate others’ code, which trained us to think critically, identify edge cases, and see things from different angles.\n\n In short, 42 taught me collaboration, resilience, clean and efficient low-level coding, and how to thrive in group projects. I’ve worked on dozens of real, challenging projects, and above all, I learned how to learn. It’s a big part of",
-    "about42Link" : "what defines me.",
+    "about42DescBefore": "42 is a peer‑to‑peer, project‑based coding school with no teachers, internationally recognized in the tech industry. Admission requires passing a selective, high‑intensity, month‑long exam (“piscine”) that runs seven days a week.\n\nOnce admitted, you write everything from scratch in pure C, no external libraries or functions forcing you to master the fundamentals without relying on outside help. The school enforces strict rules: follow the Norm, avoid external functions, and guarantee zero memory leaks or crashes. Every project is peer‑reviewed, so you learn to evaluate others’ code, identify its limits, and defend your own solutions often across language barriers.\n\n42’s mission is to teach fundamentals and rigor through projects, equipping students to learn any technology or language in a rapidly evolving tech world.\n\nIn short, 42 taught me collaboration, resilience, clean and efficient low‑level coding, and the adaptability to tackle diverse, challenging projects. Above all, I learned how to learn, an essential part of",
+    "about42Link" : "my developper journey",
     "about42DescAfter" : "",
     
     
@@ -26,16 +26,17 @@
     "problemSolving" : "Problem Solving",
     "teamWork" : "Team Work",
     "jobOpportunity" : "Open to Job Opportunities",
-    "jobOpportunityDesc" : "I am looking for a job opportunity in software engineering, game developpement, automation or any other field that could interest me.",
+    "jobOpportunityDesc" : "I’m opened to software‑engineering roles. Wether it's part or full time, I’m ready to take on new challenges and grow my skills. I'm especially looking for RPA and Game Developpement but I'm open to any other field that could interest me.",
     "developSomething" : "Open to Collaborations",
-    "developSomethingDesc" : "I am looking for a collaboration opportunity in software engineering, game developpement, automation or any other field that could interest me.",
-    "contractOpportunity" : "Available for Freelance & Contract Work",
-    "contractOpportunityDesc" : "Whether it’s a short-term gig or a long-term freelance project, I’m happy to help bring your project to life.",
+    "developSomethingDesc" : "Whether you’re building a side‑project or kick‑starting a startup, I’m always excited to partner on innovative software, tooling, or game‑dev projects.",
+    "contractOpportunity" : "Available for Freelance & Contracts",
+    "contractOpportunityDesc" : "Need short‑term support or a longer contract? I can step in to help you meet your goals. I’m open to freelance and contract opportunities, so feel free to reach out.",
 
     "technologyUsed" : "Technology Used",
     "viewProject" : "View on Github",
     "schoolProject" : "School Project",
     "personnalProject" : "Personal Project",
+    "multiThreading" : "Multi Threading",
     "gameDeveloppement" : "Game Developments",
     "3DModeling" : "3D Modeling",
     "automation" : "Automation",
@@ -67,12 +68,13 @@
     "pushSwapDesc" : "Push Swap is a sorting algorithm that can only use predefined commands such as (RB : rotate the B stack by 1, PA : push the first element of the stack B to the top of A...) to sort any numbers list. The goal of this sorting algorithm is to try to sort the list using the least number of moves.",
     "fordJohnsonDesc" : "The Ford-Johnson algorithm (also known as Merge-Insertion Sort) is known for being one of the most efficient sorting algorithms in terms of comparison count, especially for small to medium-sized datasets. It requires to use pairing elements and sorting them in small groups then inserting the smallest elements into the sorted list using binary search based on the Jacobsthal sequence.",
     "transcendenceDesc" : "Transcendence was the last project of the 42 school cursus. It is a full stack website in group. The goal was to create a website where user could create accounts to play the retro game Pong. I mainly took care of all the game aspects namely : game backend, game design, visuals, particle system, matchmaking, tournament, game customization, achievement and much more. I also helped on the frontend of the website in general.",
-
-    "eldenRingTwitchDesc" : "Elden Ring Twitch",
-    "eldenRingSaveDesc" : "Elden Ring Save",
-    "eldenRingDeathDesc" : "Elden Ring Death",
-    "webservDesc" : "Webserv",
+    "hackathondesc" : "This hackathon required us in 78h to assemble a robot and program it in C++ using some given APIs to control the motors and receive datas about the game. The goal was to progress into a shrinking maze, collect and use bombs to gain points, and try to kill other robots. Limited hardware and time required careful planning and decisions. We got placed 8th/50.",
+    "gameDesc" : "",
+    "eldenRingTwitchDesc" : "This project enables Twitch viewers to interact with the game Elden Ring using custom channel point rewards. With this integration, viewers can modify the game's in-memory stats such as vigor, endurance intelligence or affect the player's health by redeeming rewards in Twitch chat. This project used a combinaison of reverse engineering, chat bot and memory manipulation.",
+    "eldenRingSaveDesc" : "This project is a Windows Form application created at the release of the game Elden Ring to help players manage their save files. The application allows users to easily back up, load, and delete save files in real time in a game that doesn't allow it, as well as using memory functions to be able to force load a save. This app was quite popular amongst speedrunners.",
+    "eldenRingDeathDesc" : "This project was created at the release of the game Elden Ring for Twitch streamers to be able to display their death count. It used the Tesseract OCR to detect deaths instead of using memory so that the streamer didn't need to use an anti cheat. The program would just increase a death count on a text file locally.",
+    "webservDesc" : "The goal of the project is to build a C++98 compatible HTTP web server from scratch. The web server can handle HTTP GET, HEAD, POST, PUT, and DELETE Requests, and can serve static files from a specified root directory or dynamic content using CGI. It is also able to handle multiple client connections concurrently and uses a nginx style conf file.",
     "cub3dDesc" : "Cub3D is a simple 3D game engine in C, inspired by the classic Wolfenstein 3D. The objective is to render a 2D map into a 3D first-person perspective using raycasting techniques to render the view, the showcased game goal is to find the exit by exploring the maze before your oxygen level depletes.",
-
+    "philoDesc" : "The goal of the project is to implement the classic Dining Philosophers problem in C using POSIX threads and semaphores. It simulates N philosophers alternately thinking and eating, prevents deadlock via an asymmetric locking strategy. An exercise to understand and implement concurrency, synchronization, and resource sharing in a multi-threaded environment.",
     "copyright": "All Rights Reserved"
 }
