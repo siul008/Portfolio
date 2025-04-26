@@ -42,6 +42,13 @@ import im10 from '../assets/ford.png'
 import im11 from '../assets/elden.png'
 import eldenCounter from '../assets/eldenCounter.jpg'
 
+import rAppImg from '../assets/RApp.jpg'
+import mathTechImg from '../assets/MatTech.jpg'
+
+import bookingVan from '../assets/calendar.jpg'
+import admin from '../assets/vanAdmin.jpg'
+import calendar from '../assets/bookingVan.jpg'
+
 const Projects: React.FC = () => {
   const { t } = useTranslation();
 
@@ -51,6 +58,7 @@ const Projects: React.FC = () => {
     memoryManagement: t('memoryManagement'),
     parsing: t('parsing'),
     personalProject: t('personalProject'),
+    workProject: t('workProject'),
     soundDesign: t('soundDesign'),
     gameDesign: 'Game Design',
     threeDModeling: t('3DModeling'),
@@ -76,6 +84,10 @@ const Projects: React.FC = () => {
     ocr : 'OCR',
     multiThreading: t('multiThreading'),
     math : t('math'),
+    rpa : t('RPA'),
+    azure : t('Azure'),
+    permissions : "Permissions",
+    mobile : "Mobile",
   };
 
   const projects = [
@@ -246,6 +258,54 @@ const Projects: React.FC = () => {
       description: t('philoDesc'),
       githubLink: 'philosophers',
       image: im7,
+    },
+    {
+      title: 'R-App',
+      technologies: 'PowerApps, PowerAutomate, Sharepoint, Azure Active Directory',
+      tags: [
+        labels.workProject,
+        labels.mobile,
+        labels.responsiveDesign,
+        labels.rpa,
+        labels.azure,
+        labels.permissions,
+      ],
+      description: t('rAppDesc'),
+      githubLink: 'None',
+      link:false,
+      images: [rAppImg],
+    },
+     {
+      title: 'Materiel Tech',
+      technologies: 'PowerApps, PowerAutomate, Sharepoint, Azure Active Directory',
+      tags: [
+        labels.workProject,
+        labels.mobile,
+        labels.responsiveDesign,
+        labels.rpa,
+        labels.azure,
+        labels.permissions,
+      ],
+      description: t('matTechDesc'),
+      githubLink: 'None',
+      link:false,
+      images: [mathTechImg],
+    },
+         {
+      title: 'Reservation Camionnette',
+      technologies: 'PowerApps, PowerAutomate, Sharepoint, Azure Active Directory',
+      tags: [
+        labels.workProject,
+        labels.mobile,
+        labels.responsiveDesign,
+        labels.rpa,
+        labels.azure,
+        labels.permissions,
+      ],
+      description: t('vanDesc'),
+      githubLink: 'None',
+      link:false,
+      images: [bookingVan, calendar, admin,],
     },
     {
       title: 'Game In Progress',

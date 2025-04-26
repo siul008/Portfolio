@@ -7,28 +7,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Projects.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\src\\components\\Projects.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Projects.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\src\\locales\\en.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\locales\\en.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\src\\components\\Splide.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Splide.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\src\\App.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\vite.config.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:vite.config.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\src\\declaration.d.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\declaration.d.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\src\\components\\ProjectCard.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ProjectCard.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\src\\locales\\fr.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\locales\\fr.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,27 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Splide.css",
-              "DocumentMoniker": "C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\src\\components\\Splide.css",
-              "RelativeDocumentMoniker": "src\\components\\Splide.css",
-              "ToolTip": "C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\src\\components\\Splide.css",
-              "RelativeToolTip": "src\\components\\Splide.css",
-              "ViewState": "AgIAAGEBAAAAAAAAAAAAAHsBAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-17T16:14:20.047Z",
+              "Title": "fr.json",
+              "DocumentMoniker": "C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\src\\locales\\fr.json",
+              "RelativeDocumentMoniker": "src\\locales\\fr.json",
+              "ToolTip": "C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\src\\locales\\fr.json",
+              "RelativeToolTip": "src\\locales\\fr.json",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-26T09:24:21.6Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Projects.css",
-              "DocumentMoniker": "C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\src\\components\\Projects.css",
-              "RelativeDocumentMoniker": "src\\components\\Projects.css",
-              "ToolTip": "C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\src\\components\\Projects.css",
-              "RelativeToolTip": "src\\components\\Projects.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-17T16:10:02.16Z",
+              "Title": "en.json",
+              "DocumentMoniker": "C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\src\\locales\\en.json",
+              "RelativeDocumentMoniker": "src\\locales\\en.json",
+              "ToolTip": "C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\src\\locales\\en.json",
+              "RelativeToolTip": "src\\locales\\en.json",
+              "ViewState": "AgIAAC0AAAAAAAAAAAD4v0MAAACAAgAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-26T09:24:04.93Z",
               "EditorCaption": ""
             },
             {
@@ -78,58 +62,10 @@
               "RelativeDocumentMoniker": "src\\components\\Projects.tsx",
               "ToolTip": "C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\src\\components\\Projects.tsx",
               "RelativeToolTip": "src\\components\\Projects.tsx",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAGIAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABkBAAAAAAAAAAAAADQBAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2025-04-17T16:09:59.82Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "declaration.d.ts",
-              "DocumentMoniker": "C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\src\\declaration.d.ts",
-              "RelativeDocumentMoniker": "src\\declaration.d.ts",
-              "ToolTip": "C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\src\\declaration.d.ts",
-              "RelativeToolTip": "src\\declaration.d.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-04-17T15:54:15.56Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProjectCard.tsx",
-              "DocumentMoniker": "C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\src\\components\\ProjectCard.tsx",
-              "RelativeDocumentMoniker": "src\\components\\ProjectCard.tsx",
-              "ToolTip": "C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\src\\components\\ProjectCard.tsx",
-              "RelativeToolTip": "src\\components\\ProjectCard.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-04-17T15:39:11.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "vite.config.ts",
-              "DocumentMoniker": "C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\vite.config.ts",
-              "RelativeDocumentMoniker": "vite.config.ts",
-              "ToolTip": "C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\vite.config.ts",
-              "RelativeToolTip": "vite.config.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-04-17T15:35:50.117Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.tsx",
-              "DocumentMoniker": "C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\src\\App.tsx",
-              "RelativeDocumentMoniker": "src\\App.tsx",
-              "ToolTip": "C:\\Users\\Julien\\Documents\\Portfolio\\portfolio\\src\\App.tsx",
-              "RelativeToolTip": "src\\App.tsx",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-04-17T15:35:33.765Z"
             }
           ]
         }

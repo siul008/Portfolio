@@ -34,15 +34,17 @@
 }
 
 .project-image {
-  aspect-ratio: 1.3 / 1;
-  min-height: 300px;
-  max-width: 100%;
-  margin: 0 auto;
-  height: 100%;
-  background-size: 100% 100%; 
-  border-radius: 20px;
-  flex-shrink: 0; 
-  background-color: var(--main-bg-color);
+    aspect-ratio: 1.3 / 1;
+    min-height: 300px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    flex-shrink: 0;
+    background-color: var(--main-bg-color);
 }
 
 .project-card-content {
@@ -109,18 +111,6 @@
     justify-content: center;
   }
   
-.project-image {
-  aspect-ratio: 1.3 / 1;
-  min-height: 300px;
-  max-width: 100%;
-  margin: 0 auto;
-  height: 100%; 
-  background-size: 100% 100%; 
-  background-position: center;
-  border-radius: 20px; 
-  flex-shrink: 0; 
-  background-color: var(--main-bg-color); 
-}
 
 @media screen and (max-width: 1000px) {
   .project-card{

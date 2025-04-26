@@ -3,8 +3,9 @@
     "",
     "\\public",
     "\\src",
-    "\\src\\components"
+    "\\src\\components",
+    "\\src\\locales"
   ],
-  "SelectedNode": "\\src\\components\\Projects.tsx",
+  "SelectedNode": "\\src\\locales\\fr.json",
   "PreviewInSolutionExplorer": false
 }
