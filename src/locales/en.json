@@ -62,6 +62,7 @@
   "fileModification": "File Modification",
   "RPA": "Robotic Process Automation",
   "workProject": "Work Project",
+  "personalProject": "Personal Project",
 
   "rAppDesc": "This project is a in internal App developped to be the entry point to some smaller apps based on permissions handled by some custom Azure Active Directory groups. The goal was to have only one App installed that allows to access multiple workflows",
   "matTechDesc": "This app within R-App was used for technicians to log extra materials used during customer interventions. Before they used to need to remember what was used, send it to the stock manager that will send back an invoice that needed to be printed to be allowed to be signed by the customers. Now techs select materials directly in the app, enter all the informations, the customer enters its information (name, email etc) can sign the recap digitally and the final formatted invoice will be generated and sent directly to the customers and internal services. Improved tracking, reduced forgotten charges, and made the full process faster and fully digital.",
