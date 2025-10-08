@@ -32,10 +32,9 @@ import cub3dD from '../assets/cub3dDoor.png';
 import im6 from '../assets/minishell.png'
 import im7 from '../assets/Philo.png'
 
-import spM from '../assets/spaceMain.png'
-import spG from '../assets/spaceGame.png'
-import spP from '../assets/spacePause.png'
-import spS from '../assets/spaceShop.png'
+import aimMenu from '../assets/Aimcore_Menu.png'
+import aimGame from '../assets/Aimcore_Game.png'
+import aim from '../assets/Aimcore.png'
 
 import im9 from '../assets/webserv.png'
 import im10 from '../assets/ford.png'
@@ -308,7 +307,7 @@ const Projects: React.FC = () => {
       images: [bookingVan, calendar, admin,],
     },
     {
-      title: 'Game In Progress',
+      title: 'Aimcore',
       technologies: 'C#, Blender, FMOD, Unity, Audacity, FL Studio, Figma',
       tags: [
         labels.personalProject,
@@ -317,12 +316,13 @@ const Projects: React.FC = () => {
         labels.soundDesign,
         labels.teamManagement,
         labels.responsiveDesign,
-        labels.threeDModeling
+        labels.threeDModeling,
+        labels.networking,
       ],
       description: t('gameDesc'),
-      githubLink: 'None',
-      images: [spM, spG, spP, spS],
-      link:false,
+      githubLink: 'https://siul008.itch.io/aimcore',
+      images: [aimMenu, aimGame, aim],
+      link:true,
     },
     {
       title: '72h Exolegend Hackathon',
